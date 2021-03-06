@@ -1,7 +1,14 @@
 // probando screen full
 
 
+//-------PROBANDO POPUP DE BOOTSTRAP, ELIMINAR SI NO LO USO
+var myModal = document.getElementById('myModal')
+var myInput = document.getElementById('myInput')
 
+myModal.addEventListener('shown.bs.modal', function () {
+  myInput.focus()
+})
+//-------------------------------
 
 
 function altura(){
@@ -9,22 +16,30 @@ function altura(){
 
       $('.divuno').height(height);    // Decimos que este div tendrá esa altura
       $('.divdos').height(height);
-
-      
-      
-
-
   
 }
 
+// $(document).ready(function () {
+//   $('[data-toggle="popover"]').popover({
+//     placement: 'top',
+//     trigger: 'hover'
+//   });
+// });
+
 $(document).ready(function(){
+
+  $('[data-toggle="popover"]').popover({
+    placement: 'bottom',
+    trigger: 'hover'
+  });
+
   $(".ver1").css("visibility", "hidden");
   $(".zoom1").hover(function(){
     $(".letraszoom1").css("transform","scale(1.1)");
     $(".ver1").css("visibility", "visible");
     }, function(){
       $(".letraszoom1").css("transform","scale(1)");
-      $(".ver1").css("visibility", "hidden");
+      // $(".ver1").css("visibility", "hidden");
      
   });
  
@@ -50,15 +65,6 @@ $(document).ready(function(){
 //   $('.ver').html('hola');
 //   console.log('llega al mouse')
 //  });
-
-
- 
-      
-
- 
-    
-   
-
 
 
 // -----------------------
@@ -107,7 +113,7 @@ TxtRotate.prototype.tick = function() {
 
 window.onload = function() {
 
-altura();  // ----------------------------RECUERDA QUE LO MODIFICASTE
+altura();  // ----------------------------Recuerda que lo modificaste
 
 
 
