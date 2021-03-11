@@ -1,3 +1,13 @@
+@media (max-width: 515px) {
+  .titulo {
+    font-size: 35px;
+  }
+}
+html, body {
+  scroll-behavior: smooth;
+  height: 100%;
+}
+
 body {
   background-color: #f9f9fa;
 }
@@ -28,26 +38,17 @@ body {
   padding: 3rem;
 }
 
-.btn.btn-social-icon {
-  width: 50px;
-  height: 50px;
-  padding: 0;
-}
-
-.template-demo > .btn {
-  margin-right: 0.5rem !important;
-}
-
-.template-demo {
-  margin-top: 0.5rem !important;
-}
-
 .btn.btn-rounded {
   border-radius: 50px;
 }
 
 .btn-facebook {
   background: #3b579d;
+  color: #ffffff;
+}
+
+.btn-morado {
+  background: #881f69;
   color: #ffffff;
 }
 
@@ -58,6 +59,16 @@ body {
 
 .btn-envelope {
   background: #dd5044;
+  color: #ffffff;
+}
+
+.btn-naranja {
+  background: #f7a307;
+  color: #ffffff;
+}
+
+.btn-marron {
+  background: #c46f0e;
   color: #ffffff;
 }
 
@@ -83,9 +94,27 @@ body {
   color: #ffffff;
 }
 
+.btn-naranja:hover,
+.btn-naranja:focus {
+  background: #f7a307;
+  color: #ffffff;
+}
+
+.btn-marron:hover,
+.btn-marron:focus {
+  background: #c46f0e;
+  color: #ffffff;
+}
+
 .btn-envelope:hover,
 .btn-envelope:focus {
   background: #be392d;
+  color: #ffffff;
+}
+
+.btn-morado:hover,
+.btn-morado:focus {
+  background: #b22dbe;
   color: #ffffff;
 }
 
