@@ -1,9 +1,5 @@
-@media (max-width: 515px) {
-  .titulo {
-    font-size: 35px;
-  }
-}
-html, body {
+html,
+body {
   scroll-behavior: smooth;
   height: 100%;
 }
@@ -12,6 +8,15 @@ body {
   background-color: #f9f9fa;
 }
 
+video {
+  width: 100%;
+}
+
+@media (max-width: 515px) {
+  .titulo {
+    font-size: 35px;
+  }
+}
 .hrpersonalizado {
   border: 1px dashed grey;
   height: 0;

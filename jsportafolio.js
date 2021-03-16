@@ -38,6 +38,7 @@ function PantallaCompleta() { // Pantalla completa
   var height = $(window).height(); // creamos variable con la altura de la pantalla
 
   $('.divuno').height(height); // Decimos que este div tendrá esa altura
+  $('#video').height(height);
   // $('.divdos').height(height);
 
 }
