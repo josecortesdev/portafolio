@@ -1,0 +1,151 @@
+html,
+body {
+  scroll-behavior: smooth;
+  height: 100%;
+
+}
+
+body {
+  background-color: #f9f9fa
+}
+
+
+
+
+@media (max-width: 515px) {
+  .titulo {
+    // font-size: 200%;
+    font-size: 35px;
+  }
+}
+
+.hrpersonalizado {
+  border: 1px dashed grey;
+  height: 0;
+  width: 60%;
+}
+
+.flex {
+  -webkit-box-flex: 1;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto
+}
+
+@media (max-width:991.98px) {
+  .padding {
+    padding: 1.5rem
+  }
+}
+
+@media (max-width:767.98px) {
+  .padding {
+    padding: 1rem
+  }
+}
+
+.padding {
+  padding: 3rem
+}
+
+// Estilo para los botones
+
+.btn.btn-rounded {
+  border-radius: 50px
+}
+
+.btn-facebook {
+  background: #3b579d;
+  color: #ffffff
+}
+
+.btn-morado {
+  background: #881f69;
+  color: #ffffff
+}
+
+.btn-github {
+  background: #323131;
+  color: #ffffff
+}
+
+.btn-envelope {
+  background: #dd5044;
+  color: #ffffff
+}
+
+.btn-naranja {
+  background: #f7a307;
+  color: #ffffff
+}
+
+.btn-marron {
+  background: #c46f0e;
+  color: #ffffff
+}
+
+
+
+.btn-linkedin {
+  background: #0177b5;
+  color: #ffffff
+}
+
+.btn-user {
+  background: #9b9a99;
+  color: #ffffff
+}
+
+.btn-facebook:hover,
+.btn-facebook:focus {
+  background: #2d4278;
+  color: #ffffff
+}
+
+.btn-github:hover,
+.btn-github:focus {
+  background: #000000;
+  color: #ffffff
+}
+
+.btn-naranja:hover,
+.btn-naranja:focus {
+  background: #f7a307;
+  color: #ffffff
+}
+
+.btn-marron:hover,
+.btn-marron:focus {
+  background: #c46f0e;
+  color: #ffffff
+}
+
+
+.btn-envelope:hover,
+.btn-envelope:focus {
+  background: #be392d;
+  color: #ffffff
+}
+
+.btn-morado:hover,
+.btn-morado:focus {
+  background: #b22dbe;
+  color: #ffffff
+}
+
+.btn-dribbble:hover,
+.btn-dribbble:focus {
+  background: #e51e6b;
+  color: #ffffff
+}
+
+.btn-linkedin:hover,
+.btn-linkedin:focus {
+  background: #015682;
+  color: #ffffff
+}
+
+.btn-user:hover,
+.btn-user:focus {
+  background: #4b4b4b;
+  color: #ffffff
+}
